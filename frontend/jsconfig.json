@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"],
+      "@components/*": ["components/*"],
+      "@constants/*": ["contexts/*"],
+      "@contexts/*": ["contexts/*"],
+      "@data/*": ["data/*"],
+      "@layouts/*": ["layouts/*"],
+      "@lib/*": ["lib/*"],
+      "@styles/*": ["styles/*"]
+    }
+  },
+  "exclude": ["node_modules", ".next"]
+}
